@@ -1,0 +1,18 @@
+ALHUDAHUDA WEBSITE — START HERE
+
+1. Extract this ZIP using Extract All on Windows or Archive Utility on macOS.
+2. Open the alhudahuda-website folder.
+3. Open index.html in your web browser.
+
+Keep all files together. This package contains the complete static website,
+including English and Arabic content, all logos, images, fonts, styles,
+JavaScript and font licenses.
+
+To host the website elsewhere, upload this folder's contents to a static
+website host. No build step is needed. hosting-sites.json is the original
+Sites configuration for the source layout; other hosts do not need it.
+
+To add the official Android and iOS download URLs, edit site-config.js.
+The Android and iOS applications are separate from this website.
+
+This fresh export was created on 28 October 2026.

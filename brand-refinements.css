@@ -1,0 +1,155 @@
+/* Readable typography and the supplied alhudahuda brand identity. */
+:root{--brand-lime:#88df38;--brand-dark:#00442e}
+.brand{padding:9px 15px 9px 9px;background:var(--brand-dark);border-radius:12px;gap:10px;font-size:30px;letter-spacing:-1.2px;line-height:1.15}
+.brand:hover{background:#064d36}
+.brand-icon{width:44px;height:44px;border-radius:11px;flex:none;object-fit:contain}
+.brand-wordmark{display:inline-block;font-family:'Outfit','DM Sans',Arial,sans-serif!important;font-weight:700;letter-spacing:-1.2px;white-space:nowrap;direction:ltr;unicode-bidi:isolate;line-height:1.2;text-transform:none}
+.brand-wordmark .brand-first{color:white;font-size:inherit;font-weight:700}
+.brand-wordmark .brand-second{color:var(--brand-lime);font-size:inherit;font-weight:700}
+.nav-wrap{min-height:98px;height:auto;padding-block:13px;gap:22px}
+.desktop-nav{gap:24px;font-size:16px}
+.nav-actions{gap:20px}
+.language-button{font-size:16px;min-height:44px}
+.button-small{font-size:15px;gap:17px}
+.hero h1{font-family:'DM Serif Display',Georgia,serif;letter-spacing:-2px}
+html[lang=ar] .hero h1{font-family:'Noto Sans Arabic',Tahoma,Arial,sans-serif}
+.hero-description{max-width:465px;font-size:18px;line-height:1.8}
+.hero-actions{gap:23px;flex-wrap:wrap}
+.hero-actions .text-link{font-size:16px}
+.hero-availability{font-size:14px;line-height:1.7}
+.photo-topline{inset-inline:25px 45px;gap:16px;top:26%;align-items:center}
+.photo-topline>.brand-wordmark{font-size:21px!important;background:#00442ed9;padding:6px 10px;border-radius:6px}
+.photo-topline>[data-i18n]{font-size:11px;text-align:end;letter-spacing:1px}
+.photo-note-title{font-size:27px;line-height:1.3}
+.photo-note div>span:last-child{font-size:13px;line-height:1.7;max-width:335px}
+.photo-note{padding:20px;align-items:flex-start}
+.photo-note-icon{margin-top:3px}
+.hero-side-note{font-size:10px}
+.eyebrow{font-size:12px;letter-spacing:1.5px}
+.benefits-inner>div{font-size:14px;line-height:1.7;padding-inline:13px;gap:10px}
+.benefits-inner>div:first-child{padding-inline-start:0}
+.benefits-inner>div:last-child{padding-inline-end:0}
+.intro-copy{font-size:18px;max-width:470px;line-height:1.8}
+.category{display:flex;flex-direction:column}
+.category h3{font-size:21px;line-height:1.5}
+.category p{font-size:16px;min-height:0;max-width:100%;line-height:1.85}
+.category-tag{font-size:11px;letter-spacing:1.2px;margin-top:auto;padding-top:22px}
+.section-note{font-size:13px;line-height:1.8}
+.experience-grid{gap:72px}
+.experience-lead{font-size:17px;max-width:440px;line-height:1.8}
+.steps h3{font-size:20px;line-height:1.5}
+.steps p{font-size:16px;line-height:1.8;max-width:430px}
+.steps li{padding-block:20px}
+.experience-note{font-size:13px;line-height:1.8;max-width:440px}
+.experience-caption{font-size:12px;text-align:center}
+.phone{width:310px;max-width:100%}
+.phone-brand{display:flex;align-items:center;gap:8px;background:var(--brand-dark);border-radius:9px;padding:9px;font-size:24px}
+.phone-brand .brand-icon{width:30px;height:30px;border-radius:8px}
+.phone-brand .brand-wordmark{font-size:24px}
+.phone-greeting{font-size:13px;margin-top:9px}
+.phone-search{font-size:12px;padding:12px 9px}
+.phone-photo{height:188px}
+.phone-photo span{font-size:13px}
+.phone-photo strong{font-size:25px}
+.phone-categories>div{font-size:12px}
+.phone-categories .icon{width:37px;height:37px;padding:7px}
+.phone-community strong{font-size:12px}
+.phone-community span{font-size:10px;line-height:1.6}
+.market-card p{font-size:16px;min-height:87px;line-height:1.75}
+.market-card h3{font-size:34px}
+.market-top{flex-wrap:wrap;row-gap:10px}
+.market-status{font-size:11px}
+.market-link{font-size:14px;gap:8px}
+.market-bottom{font-size:14px}
+.join-heading{max-width:760px}
+.join-heading>p:last-child{font-size:17px;line-height:1.8}
+.role-tabs button{font-size:16px;white-space:normal}
+.role-story h3{max-width:430px}
+.role-story p{font-size:17px;max-width:440px;line-height:1.8}
+.role-story .button{font-size:15px;gap:20px;line-height:1.6}
+.role-steps h4{font-size:18px;line-height:1.5}
+.role-steps p{font-size:16px;line-height:1.8}
+.role-step-number{width:33px;height:33px;font-size:13px}
+.join-note{font-size:13px;line-height:1.8}
+.faq-heading>p:not(.eyebrow){font-size:17px;max-width:360px;line-height:1.8}
+.faq-heading>.text-link{font-size:15px;line-height:1.7}
+.faq-list summary{font-size:17px;line-height:1.7}
+.faq-list details p{font-size:16px;line-height:1.9}
+.download-card{grid-template-columns:1.5fr 1fr;gap:40px}
+.download-copy>p:not(.eyebrow):not(.store-status){font-size:17px;max-width:450px;line-height:1.8}
+.store-button{min-width:185px;gap:10px;padding:13px 15px}
+.store-button small{font-size:12px}
+.store-button strong{font-size:21px}
+.store-status{font-size:12px;line-height:1.8;align-items:baseline}
+.download-seal .brand-icon{height:150px;width:150px;border-radius:32px;box-shadow:0 18px 45px #001c1940}
+.download-seal>.brand-wordmark{font-family:'Outfit','DM Sans',Arial,sans-serif;font-size:38px;letter-spacing:-1.5px;margin-top:18px}
+.download-seal>small{font-size:13px;letter-spacing:0;margin-top:12px}
+.footer-main{grid-template-columns:1.7fr 1fr 1.2fr 1fr;gap:32px}
+.footer-brand .brand{font-size:31px;width:max-content}
+.footer-brand p{font-size:15px;max-width:300px;line-height:1.85}
+.footer-column h3{font-size:16px;line-height:1.6}
+.footer-column a,.footer-column button{font-size:15px;line-height:1.8}
+.footer-bottom{font-size:13px;gap:20px}
+.footer-languages button{font-size:14px}
+.dialog{width:min(720px,calc(100% - 32px))}
+.small-dialog{width:min(560px,calc(100% - 32px))}
+.dialog-description{font-size:17px;line-height:1.8}
+.checklist-selects label>span{font-size:15px}
+.checklist-selects select{font-size:16px}
+.checklist-market-note{font-size:15px;line-height:1.7}
+.checklist-items label{font-size:16px;line-height:1.75}
+.checklist-progress{font-size:12px;line-height:1.8;flex-wrap:wrap}
+.checklist-disclaimer{font-size:13px;line-height:1.8}
+.dialog-actions .button,.small-dialog>.button{font-size:15px}
+.dialog-actions .text-link{font-size:16px}
+.access-note p,.privacy-copy p{font-size:16px;line-height:1.85}
+html[lang=ar] .hero-description{font-size:17px;line-height:2}
+html[lang=ar] .hero-side-note{writing-mode:horizontal-tb;inset-inline:20px;top:auto;bottom:-28px;text-align:center;white-space:nowrap;font-size:11px;line-height:1.8}
+html[lang=ar] .hero-actions .text-link{font-size:15px}
+html[lang=ar] .hero-availability{font-size:13px}
+html[lang=ar] .photo-note-title{font-size:24px}
+html[lang=ar] .phone-community span{font-size:10px}
+html[lang=ar] .phone-photo strong{font-size:21px}
+html[lang=ar] .market-card h3{font-size:31px}
+html[lang=ar] .category h3{font-size:20px}
+html[lang=ar] .category p{font-size:16px}
+@media(max-width:1150px){
+  .nav-wrap{gap:16px}.brand{font-size:27px;padding:8px 12px 8px 8px}.brand-icon{width:40px;height:40px}.desktop-nav{gap:17px;font-size:15px}.nav-actions{gap:16px}.button-small{font-size:14px;gap:12px}.language-button{font-size:15px}
+  .hero{gap:43px}.hero-actions{gap:18px}.hero-actions .button,.hero-actions .text-link{font-size:15px}.hero-description{font-size:18px}.hero-visual,.hero-image-wrap{min-height:610px}
+  .section-intro{gap:55px}.category h3{font-size:20px}.category p{font-size:16px}.experience-grid{gap:55px}.phone{width:285px}.phone-brand{font-size:21px}.phone-brand .brand-wordmark{font-size:21px}
+  .market-card{padding-inline:18px}.market-status{font-size:11px}.market-card p{font-size:15px}.market-link{font-size:13px}.role-panel{padding:40px;gap:40px}.role-story p{font-size:16px}.role-steps p{font-size:15px}
+  .download-card{padding:48px;gap:25px}.download-seal>.brand-wordmark{font-size:32px}.download-seal .brand-icon{width:130px;height:130px}.store-button{min-width:172px;padding:12px}.store-button strong{font-size:20px}.store-button .store-arrow{display:none}
+  .footer-main{grid-template-columns:1.4fr 1fr 1.2fr 1fr;gap:25px}.footer-brand .brand{font-size:26px}.footer-column a,.footer-column button{font-size:14px}.footer-brand p{font-size:14px}
+}
+@media(max-width:1060px){.desktop-nav{display:none}.menu-button{display:block}}
+@media(max-width:960px){
+  .nav-wrap{min-height:88px}.brand{font-size:29px}.brand-icon{width:42px;height:42px}.nav-actions{gap:20px}.hero-visual,.hero-image-wrap{min-height:600px}.hero{gap:35px}
+  .hero-description{font-size:17px}.hero .eyebrow{font-size:11px;letter-spacing:1px}.hero-actions .text-link{font-size:15px}.hero-availability{font-size:13px}.photo-note-title{font-size:24px}.photo-note div>span:last-child{font-size:12px}.photo-topline>[data-i18n]{display:none}
+  .benefits-inner>div,.benefits-inner>div:first-child,.benefits-inner>div:last-child{font-size:14px;justify-content:center;padding-inline:8px}.intro-copy{font-size:17px}.category h3{font-size:22px}.category p{font-size:17px}
+  .experience-grid{gap:32px}.experience .eyebrow{font-size:11px;letter-spacing:1px}.experience-lead{font-size:16px}.steps h3{font-size:18px}.steps p{font-size:15px}.phone{width:270px}.phone-brand{padding:7px;gap:6px}.phone-brand .brand-wordmark{font-size:20px}.phone-brand .brand-icon{width:27px;height:27px}.phone-photo{height:172px}
+  .market-card{padding:25px}.market-card h3{font-size:35px}.market-card p{font-size:16px;min-height:56px}.market-link{font-size:15px}.market-bottom{font-size:15px}.market-status{font-size:12px}
+  .role-panel{padding:32px;gap:30px}.role-story p{font-size:16px}.role-story .button{font-size:14px}.role-steps h4{font-size:17px}.role-steps p{font-size:15px}.join-note{font-size:12px}
+  .faq{gap:40px}.faq-heading>p:not(.eyebrow){font-size:16px}.faq-list summary{font-size:16px}.faq-list details p{font-size:15px}
+  .download-card{grid-template-columns:1fr .5fr;padding:40px;gap:20px}.download-card .eyebrow{font-size:11px}.download-seal>.brand-wordmark{font-size:27px}.download-seal .brand-icon{width:110px;height:110px}.download-seal>small{font-size:11px;text-align:center}.store-button{min-width:160px;gap:9px;padding:10px}.store-button small{font-size:11px}.store-button strong{font-size:18px}.download-copy>p:not(.eyebrow):not(.store-status){font-size:16px}
+  .footer-main{grid-template-columns:1fr 1fr 1fr}.footer-brand{grid-column:1 / -1}.footer-brand .brand{font-size:32px}.footer-brand p{max-width:100%;font-size:16px}.footer-column h3{font-size:16px}.footer-column a,.footer-column button{font-size:15px}
+  html[lang=ar] .hero-actions .text-link{font-size:14px}html[lang=ar] .photo-note-title{font-size:21px}
+}
+@media(max-width:700px){
+  :root{scroll-padding-top:94px}.nav-wrap{min-height:86px;padding-block:12px;gap:12px}.brand{font-size:26px;border-radius:10px;padding:7px 10px 7px 7px;gap:8px}.brand-icon{width:34px;height:34px;border-radius:8px}.brand-wordmark{letter-spacing:-1px}.nav-actions{gap:13px}.language-button{font-size:14px;gap:6px}.language-button .icon{width:16px;height:16px}.menu-button{padding:8px 0 8px 4px}.mobile-nav{font-size:18px}
+  .hero{padding-top:34px}.hero .eyebrow{font-size:11px;letter-spacing:1px}.hero-description{font-size:17px;line-height:1.85;max-width:100%;margin-bottom:26px}.hero-actions{flex-wrap:wrap;gap:18px}.hero-actions .button,.hero-actions .text-link{font-size:15px}.hero-actions .button{padding:15px 20px;gap:25px}.hero-actions .text-link{gap:10px}.hero-availability{font-size:13px;margin-top:24px}
+  .hero-visual,.hero-image-wrap{min-height:490px}.photo-topline{inset-inline:20px 32px}.photo-topline>.brand-wordmark{font-size:22px!important}.photo-note{padding:18px 16px;gap:12px}.photo-note-title{font-size:26px}.photo-note div>span:last-child{font-size:12px;line-height:1.8}.photo-note-icon{width:36px;height:36px}.hero-side-note{font-size:9px}
+  .benefits-inner{gap:18px 7px}.benefits-inner>div,.benefits-inner>div:first-child,.benefits-inner>div:last-child{font-size:12px;line-height:1.65;gap:8px;padding-inline:5px}.benefits-inner .icon{width:20px;height:20px}
+  .section-intro .eyebrow{font-size:12px}.intro-copy{font-size:17px;line-height:1.85}.category h3{font-size:19px;line-height:1.5}.category p{font-size:15px;line-height:1.8;min-height:0}.category-tag{font-size:10px;letter-spacing:.6px;padding-top:20px}.category-number{font-size:13px}.section-note{font-size:12px;line-height:1.9}
+  .experience .eyebrow{font-size:11px;letter-spacing:1px}.experience-lead{font-size:17px}.steps h3{font-size:20px}.steps p{font-size:16px;line-height:1.8}.step-number{font-size:14px}.experience-note{font-size:12px}.experience-caption{font-size:12px}.light-link{font-size:16px}.phone{width:300px}.phone-brand{padding:9px;gap:8px}.phone-brand .brand-wordmark{font-size:23px}.phone-brand .brand-icon{width:31px;height:31px}.phone-photo{height:180px}.experience-visual{margin-top:14px}
+  .market-card{padding:20px 16px}.market-top{align-items:flex-start}.market-status{font-size:10px}.country-code{font-size:16px}.market-card h3{font-size:29px}.market-card p{font-size:14px;line-height:1.85;min-height:79px}.market-link{font-size:13px;gap:5px;line-height:1.7}.market-bottom{font-size:13px;line-height:1.7}.country-art{margin-inline:-16px}.markets .section-note{font-size:12px}
+  .join-heading .eyebrow{font-size:12px;letter-spacing:1px}.join-heading>p:last-child{font-size:17px;line-height:1.85}.role-tabs button{font-size:14px;flex-direction:column;gap:6px;padding:12px 7px;min-height:80px;min-width:0;line-height:1.5;text-align:center;white-space:normal}.role-tabs .icon{width:21px;height:21px}.role-panel{padding:29px 24px;gap:30px}.role-kicker{font-size:11px;line-height:1.8}.role-story p{font-size:16px;line-height:1.85}.role-story .button{font-size:14px;line-height:1.7;gap:17px;padding-inline:15px}.role-steps h4{font-size:18px}.role-steps p{font-size:16px}.role-step-number{width:31px;height:31px;font-size:13px}.join-note{font-size:12px;line-height:1.9}
+  .faq-heading>p:not(.eyebrow){font-size:17px}.faq-heading>.text-link{font-size:15px}.faq-list summary{font-size:17px;padding-block:21px}.faq-list details p{font-size:16px;line-height:1.85}
+  .download-card{grid-template-columns:1fr;padding:35px 25px 33px}.download-card .eyebrow{font-size:11px;letter-spacing:.8px;max-width:100%}.download-copy>p:not(.eyebrow):not(.store-status){font-size:16px;line-height:1.85}.store-buttons{gap:10px;flex-wrap:wrap}.store-button{flex:1 1 140px;min-width:0;padding:12px 11px;gap:9px}.store-button small{font-size:11px}.store-button strong{font-size:18px}.store-icon{width:25px;height:25px}.store-status{font-size:11px;line-height:1.9}.download-seal{display:none}
+  .footer-main{grid-template-columns:1fr 1fr;gap:30px 25px}.footer-brand .brand{font-size:30px}.footer-brand .brand-icon{width:42px;height:42px}.footer-brand p{font-size:15px;line-height:1.85}.footer-column h3{font-size:16px}.footer-column a,.footer-column button{font-size:15px;line-height:1.85}.footer-column:last-child{gap:20px}.footer-bottom{font-size:12px;gap:20px}.footer-languages button{font-size:15px}.back-top{font-size:12px}
+  .dialog{width:calc(100% - 24px);padding:35px 24px 25px}.dialog .eyebrow{font-size:11px}.dialog-description{font-size:16px}.checklist-selects{grid-template-columns:1fr;gap:15px}.checklist-selects label>span{font-size:14px}.checklist-selects select{font-size:16px;padding:12px}.checklist-market-note{font-size:14px;line-height:1.8}.checklist-items label{font-size:15px;line-height:1.85}.checklist-progress{font-size:11px}.checklist-disclaimer{font-size:12px}.dialog-actions .button,.small-dialog>.button{font-size:14px}.dialog-actions .text-link{font-size:15px}.access-note p,.privacy-copy p{font-size:15px}
+  html[lang=ar] .hero .eyebrow{font-size:13px}html[lang=ar] .hero-description{font-size:16px;line-height:2}html[lang=ar] .hero-actions .text-link{font-size:14px}html[lang=ar] .hero-availability{font-size:12px}html[lang=ar] .photo-note-title{font-size:23px}html[lang=ar] .photo-note div>span:last-child{font-size:12px}html[lang=ar] .benefits-inner>div{font-size:11px}html[lang=ar] .category h3{font-size:17px}html[lang=ar] .category p{font-size:15px}html[lang=ar] .category-tag{font-size:11px}html[lang=ar] .market-card h3{font-size:28px}html[lang=ar] .market-link{font-size:12px}html[lang=ar] .market-status{font-size:10px}html[lang=ar] .role-tabs button{font-size:13px;padding-inline:7px;gap:7px}html[lang=ar] .store-button strong{font-size:18px}html[lang=ar] .store-button small{font-size:11px}html[lang=ar] .footer-brand p{font-size:15px}
+}
+@media(max-width:380px){
+  .brand{font-size:24px;padding:7px 8px 7px 6px;gap:7px}.brand-icon{width:31px;height:31px}.nav-actions{gap:10px}.language-button{font-size:13px}.nav-wrap{gap:10px}.hero-actions .text-link{font-size:14px}.hero-actions .button{font-size:15px;padding-inline:18px}.hero-visual,.hero-image-wrap{min-height:475px}.photo-note-title{font-size:24px}.photo-note div>span:last-child{font-size:12px}.benefits-inner>div{font-size:12px!important}.category h3{font-size:18px}.category p{font-size:15px}.market-card{padding:19px 13px}.market-card p{font-size:14px}.market-link{font-size:12px}.role-tabs button{font-size:13px}.download-card{padding-inline:22px}.store-button{flex-basis:130px;gap:8px;padding-inline:10px}.store-button strong{font-size:17px}.store-button small{font-size:10px}.store-icon{width:23px;height:23px}
+  html[lang=ar] .hero-actions .text-link{font-size:13px}html[lang=ar] .photo-note-title{font-size:21px}html[lang=ar] .photo-note div>span:last-child{font-size:11px}html[lang=ar] .benefits-inner>div{font-size:11px!important}
+}
